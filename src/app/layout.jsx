@@ -25,6 +25,7 @@ export default function RootLayout({ children }) { //name root layout can be cha
       <body className={`${geistSans.variable} ${geistMono.variable}`}> 
         
         <Header />
+        
         {children}
         
       </body>
