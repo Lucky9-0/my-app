@@ -40,3 +40,29 @@ a {
     color-scheme: dark;
   }
 }
+
+main{
+  max-width: 1040px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+header {
+  padding: 20px 10px;
+  box-shadow: 0px 0px 1px gray;
+
+}
+
+header main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .Logo{
+font-size: 40px;
+  font-weight: bold;
+}
