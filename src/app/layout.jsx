@@ -23,11 +23,8 @@ export default function RootLayout({ children }) { //name root layout can be cha
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}> 
-        
         <Header />
-        
         {children}
-        
       </body>
     </html>
   );
